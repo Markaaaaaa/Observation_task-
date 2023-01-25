@@ -1,1 +1,42 @@
+//While loop
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int n=24, sum=0;
+    while(n<=74)
+    {
+      n=n+1;
+      sum=sum+n;
+    }
+    Console.WriteLine (sum);
+  }
+}
+   
+   
+//For loop   
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int sum=0;
+    for(int n=25;n<=75;n=n+1)
+    {
+      sum=sum+n;
+    }
+    Console.WriteLine (sum);
+  }
+}
 
+
+//Do while loop
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int sum=0,n=25;
+    do
+    {
+      sum=sum+n;
+      n=n+1;
+    }while(n<=75);
+    Console.WriteLine (sum);
+  }
+}
